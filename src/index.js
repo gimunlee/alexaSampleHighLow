@@ -1,6 +1,6 @@
 'use strict';
 var Alexa = require("alexa-sdk");
-var appId = ''; //'amzn1.echo-sdk-ams.app.your-skill-id';
+var appId = 'amzn1.ask.skill.4d2bd50d-eb22-4e4e-9b0b-249ab8a1a6c7'; //'amzn1.echo-sdk-ams.app.your-skill-id';
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
